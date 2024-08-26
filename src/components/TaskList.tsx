@@ -1,6 +1,6 @@
 import React from 'react';
 import { observer } from 'mobx-react-lite';
-import taskStore from 'src/stores/TaskStore';
+import taskStore from '../stores/TaskStore';
 import TaskItem from './TaskItem';
 
 const TaskList: React.FC = () => {
