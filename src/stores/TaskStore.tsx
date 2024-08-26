@@ -1,7 +1,7 @@
 import { makeAutoObservable } from 'mobx';
 
 // Тип задачи
-interface Task {
+export interface Task {
   id: number;
   title: string;
   text: string;
